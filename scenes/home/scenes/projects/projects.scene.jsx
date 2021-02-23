@@ -1,8 +1,8 @@
 import React from 'react';
 import {Container, Row, Col, Badge} from 'react-bootstrap';
 import {RiGithubLine} from 'react-icons/ri';
-import {GrYoutube} from 'react-icons/Gr';
-import {FaRegFile} from 'react-icons/Fa';
+import {GrYoutube} from 'react-icons/gr';
+import {FaRegFile} from 'react-icons/fa';
 
 
 import sd from '../../../../assets/sd.svg';

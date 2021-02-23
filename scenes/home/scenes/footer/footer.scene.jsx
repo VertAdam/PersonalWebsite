@@ -22,7 +22,6 @@ const Footer = () => (
           </small>
         </div>
         <div className='w-50 text-right align-bottom d-inline-block'>
-          <p style={{color: '#2E77BD'}}>**INSERT URL**.ca</p>
           <p>
             <a href="https://www.linkedin.com/in/adamvert">LinkedIn</a>
             {' '}
