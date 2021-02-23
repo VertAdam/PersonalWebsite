@@ -6,9 +6,9 @@ const constants = {
   LIST: [
     'LEARN THROUGH CURIOSITY.',
     'DO LESS BUT BETTER.',
-    'NEVER STOP IMPROVING',
+    'NEVER STOP IMPROVING.',
     'ALWAYS CHALLENGE YOURSELF.',
-    'ENJOY THE MOMENT',
+    'ENJOY THE MOMENT.',
     'LISTEN.',
   ]
 };
