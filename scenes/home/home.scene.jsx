@@ -34,7 +34,7 @@ const HomeScene = () => (
     <LightWave/>
     <Timeline/>
     <DarkWave/>
-    {/*<System/>*/}
+    <System/>
     <LightWave/>
     <Projects/>
     <DarkWave/>

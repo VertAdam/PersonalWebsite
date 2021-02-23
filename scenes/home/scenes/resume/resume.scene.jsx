@@ -19,11 +19,11 @@ const Resume = () => (
         <h1 className="display-3 mb-5">{constants.HEADING}</h1>
         <iframe
           style={{
-            width: '100%',
-            height: '800px'
+            width: '70%',
+            height: '1010px'
           }}
           name='Adam Vert Resume'
-          src='https://www.smartcaptech.com/wp-content/uploads/sample.pdf'>
+          src='https://drive.google.com/file/d/1oQ4MSr8qHnbPBrl8RmIzJnRTQsCLb6nK/preview'>
         </iframe>
       </Col>
     </Row>

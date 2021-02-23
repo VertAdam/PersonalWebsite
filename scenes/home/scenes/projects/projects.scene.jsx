@@ -1,9 +1,9 @@
 import React from 'react';
 import {Container, Row, Col, Badge} from 'react-bootstrap';
-import {MdOpenInNew} from 'react-icons/md';
 import {RiGithubLine} from 'react-icons/ri';
-import {FaAppStore} from 'react-icons/fa';
-import {RiGooglePlayLine} from 'react-icons/ri';
+import {GrYoutube} from 'react-icons/Gr';
+import {FaRegFile} from 'react-icons/Fa';
+
 
 import sd from '../../../../assets/sd.svg';
 import bravery from '../../../../assets/bravery.svg';
@@ -19,107 +19,68 @@ const constants = {
   HEADING: 'Recent Projects',
   PROJECTS: [
     {
-      title: 'Onic Systems',
-      description: 'Developed website for Onic Systems. A parent company of several technology companies.',
-      bgImg: onic,
-      icons: [
-        {
-          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
-          url: 'https://www.onicinc.com'
-        }
-      ],
-      pills: ['React', 'Next.js', 'Bootstrap', 'Styled-Components']
-    },
-    {
-      title: 'SimpleDirect',
-      description: 'Developed website for SimpleDirect. A subsidiary company of Onic Systems.',
+      title: 'PianoKeyboard',
+      description: 'Created a fully documented application that allows the user to use any digital instrument as a computer keyboard with personalized bindings.',
       bgImg: sd,
       icons: [
         {
-          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
-          url: 'https://www.getsimpledirect.com'
-        }
-      ],
-      pills: ['React', 'Next.js', 'Node', 'Express', 'PostgreSQL', 'Bootstrap', 'Styled-Components', 'Sendgrid']
-    },
-    {
-      title: 'SimpleDirect Pro',
-      description: 'Developed website, iOS app, and android app for SimpleDirect Pro. A subsidiary company of Onic Systems.',
-      bgImg: sd,
-      icons: [
-        {
-          component: <RiGooglePlayLine fill='#2E77BD' size={20}/>,
-          url: 'https://play.google.com/store/apps/details?id=com.ccino.ccinoapp'
+          component: <RiGithubLine fill='#2E77BD' size={20}/>,
+          url: 'https://github.com/VertAdam/PianoKeyboard'
         },
         {
-          component: <FaAppStore fill='#2E77BD' size={20} />,
-          url: 'https://apps.apple.com/ca/app/onic-systems/id1487540329#?platform=iphone'
-        },
-        {
-          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
-          url: 'https://www.simpledirectpro.com'
+          component: <GrYoutube fill='#2E77BD' size={20}/>,
+          url: 'https://youtu.be/isl14TeM6GY'
         }
       ],
-      pills: ['React', 'Next.js', 'Node', 'Express', 'PostgreSQL', 'Sendgrid', 'Stripe', 'Twilio', 'React Native']
+      pills: ['Python','Windows Backend', 'GUI', 'Automated', 'Fully Documented', 'Virtual-Key Codes']
     },
     {
-      title: 'Algorithmic Trading Bot',
-      description: 'Developed Bot (at Stealth Startup) that buys and sells stocks using algorithmic trading strategies.',
-      icons: [],
-      bgImg: algotrading,
-      pills: ['Python', 'NumPy', 'IBKR API', 'Polygon.io API', 'AlphaVantage API']
-    },
-    {
-      title: 'Backtesting Software',
-      description: 'Developed stocks backtesting software at Stealth Startup. Backtests technical trading strategies on 15 years worth of historical data.',
-      icons: [],
+      title: 'Cooking Time Application',
+      description: 'At a McGill Physics Hackathon, we created a website that allows you to take a picture of raw meat and determine how long it needs to be cooked.',
       bgImg: backtest,
-      pills: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Zipline.io', 'Polygon.io API']
-    },
-    {
-      title: 'Covid Tracking',
-      description: 'Developed website to track the number of coronavirus cases in each country (and their corresponding states).',
-      bgImg: covid,
       icons: [
         {
           component: <RiGithubLine fill='#2E77BD' size={20}/>,
-          url: 'https://github.com/onicgroup/covid-tracking'
+          url: 'https://github.com/udchemen/mathther-chefs'
         },
         {
-          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
-          url: 'https://www.covidtracking.org'
+          component: <GrYoutube fill='#2E77BD' size={20}/>,
+          url: 'https://www.youtube.com/watch?v=2NeoYfqZZR8&ab_channel=AdamVert'
         }
       ],
-      pills: ['React', 'PWA', 'Next.js', 'Node', 'Express', 'Analytics']
+      pills: ['Python', 'JavaScript', 'C','Google Vision API', 'Machine Learning', 'Dimensional Analysis', 'Thermal Physics']
     },
     {
-      title: 'Bravery',
-      description: 'Developed website for Bravery. A subsidiary company of Onic Systems.',
-      bgImg: bravery,
-      icons: [
-        {
-          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
-          url: 'https://www.getbravery.com'
-        }
-      ],
-      pills: ['React', 'Next.js', 'Node', 'Express', 'PostgreSQL', 'Sendgrid', 'Stripe']
+      title: 'Cloud/Fog Detection Algorithm',
+      description: 'Developed and optimized currently used cloud/fog detection algorithms. Note that machine learning optimizations have been incorporated since the report linked was created.',
+      icons: [{
+          component: <FaRegFile fill='#2E77BD' size={20}/>,
+          url: 'https://drive.google.com/file/d/1FNHXAzd_zi1gIuVZaJ0IG2qbo9TCOy82/view?usp=sharing'
+        }],
+      bgImg: algotrading,
+      pills: ['Python', 'Linux', 'Bash', 'Shell-Scripting', 'Machine Learning','Pipeline Creation','Live-data Pipeline','Meteorology','Physics']
     },
     {
-      title: 'Personal Website',
-      description: 'The page you are currently on. Developed website to showcase my work experience and past projects in greater detail.',
+      title: 'Garmin Mapping Application',
+      description: 'Currently Developing a application that uses Garmin watch activity data and creates advanced analytics and interactive maps for users.',
+      bgImg: sd,
+      icons: [],
+      pills: ['Python','JavaScript','Google Maps API','GUI', 'Live Mapping', 'Geographical Analysis', 'Heatmaps', 'Time-Series Mapping', 'Advanced Analytics']
+    },
+    {
+      title: 'Flamebreak Item Detection',
+      description: 'Created an application that will automatically detect a characters items, class and stats used while playing the steam game Flamebreak using image recognition.',
+      icons: [],
       bgImg: person,
-      icons: [
-        {
-          component: <RiGithubLine fill='#2E77BD' size={20}/>,
-          url: 'https://github.com/apanesar11/personal-website'
-        },
-        {
-          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
-          url: 'http://localhost:3000'
-        }
-      ],
-      pills: ['React', 'Next.js', 'Bootstrap', 'Styled Components']
-    }
+      pills: ['Python', 'Google Vision API', 'Backend Process','Image recognition']
+    },
+    {
+      title: 'Environment Canada Pipeline',
+      description: 'Created a new pipeline for Environment Canada that efficiently stored and retrieved billions of data points from all current and historic weather data.',
+      bgImg: algotrading,
+      icons: [],
+      pills: ['Pipeline', 'Database Managment', 'Big Data', 'Automated']
+    },
   ]
 }
 
